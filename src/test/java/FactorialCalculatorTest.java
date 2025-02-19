@@ -17,6 +17,6 @@ public class FactorialCalculatorTest {
 
     @Test(expectedExceptions = IllegalArgumentException.class, expectedExceptionsMessageRegExp = "Факториал отрицательного числа не существует.")
     public void testFactorialOfNegativeNumber() {
-        FactorialCalculator.calculateFactorial(-1);
+            FactorialCalculator.calculateFactorial(-1);
     }
 }
