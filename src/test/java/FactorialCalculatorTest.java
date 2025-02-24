@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 public class FactorialCalculatorTest {
 
     @Test
-    public void testFactorialOfZero() {
+    public  void testFactorialOfZero() {
         Assert.assertEquals(FactorialCalculator.calculateFactorial(0), 1);
     }
 
