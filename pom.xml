@@ -27,7 +27,7 @@
 
 
 
-        <!-- Пример зависимости на Apache Commons Lang -->
+        <!-- Пример зависимости на Apache Commons Lang  -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
